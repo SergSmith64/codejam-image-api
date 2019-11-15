@@ -1,0 +1,19 @@
+{
+  "name": "codejam-image-api",
+  "version": "1.0.0",
+  "description": "RSSchoolQ3 task 2019-2020",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergSmith64/codejam-image-api.git"
+  },
+  "author": "Sergei Kuznetcov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergSmith64/codejam-image-api/issues"
+  },
+  "homepage": "https://github.com/SergSmith64/codejam-image-api#readme"
+}
