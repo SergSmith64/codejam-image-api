@@ -8,10 +8,25 @@
   <link href="./style.css" rel="stylesheet">
 </head>
 <body>
+  <h1>CodeJam-Image-API</h1>
   <div class="wrapper">
-    <h1>CodeJam-Image-API</h1>
+    <div class="wrapper-canvas">
+      <canvas id="canvas">Обновите браузер</canvas>
+    </div>
+    <div class="right-menu">
+      <button class="btn clear">Clear</button>
+      <form>
+        <label class="search-label" for="search">
+            <input class="search" type="text" name="search" placeholder="Write any town">
+            <!-- <img src="./images/search.svg" alt="Search"> -->
+        </label>
+        <button class="btn load">Load</button>
+      </form>
+      <button class="btn black-and-white">B&W</button>
+    </div>
   </div>
   
   <script src="./app.js"></script>
 </body>
+
 </html>

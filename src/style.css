@@ -3,11 +3,80 @@ body {
     font-size: 18px;
     min-width: 320px;
 }
+h1 {
+    font-size: 20px;
+}
 
 .wrapper {
     width: 900px;
     margin: 0 auto;
-    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
     background-color: lightgreen;
-    height: 90vh;
+}
+
+canvas {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+    margin: 0 10px;
+    width: 512px;
+    height: 512px;
+    image-rendering: pixelated;
+  }
+
+.right-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #f77f7f;
+}
+.menu-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 20px 0 auto;
+    width: 228px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+    outline: none;
+    color: #ffffff;
+}
+.btn img {
+    width: 30px;
+    margin-right: -15px;
+}
+.btn:hover {
+    background-color: #25669b;
+}
+
+form label.search-label {
+    position: relative;
+}
+form input.search {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px 3px 0 0;
+    outline: none;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 40px;
+}
+form img {
+    position: absolute;
+    left: 11px;
+    top: 4px;
+    height: 20px;
+    width: 20px;
+}
+form .btn.load {
+    border-radius: 0 0 3px 3px;
 }
